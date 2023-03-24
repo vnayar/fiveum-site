@@ -1,0 +1,5 @@
+baseURL = 'http://fiveum.org/'
+languageCode = 'en-us'
+title = 'Fiveum'
+theme = 'ananke'
+disqusShortname = 'fiveum'

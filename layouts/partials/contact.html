@@ -15,7 +15,7 @@
 					<h3>{{ with .Site.Params.contact.info }}{{ . | markdownify }}{{ end }}</h3>
 					<ul class="fh5co-contact-info">
 					{{ range .Site.Params.contact.details }}
-						<li class="fh5co-contact-address "><i class="{{ with index . 0}}{{ . }}{{ end }}"></i>{{ with index . 1}}{{ . }}{{ end }}</li>
+						<li class="fh5co-contact-address "><i class="{{ with index . 0}}{{ . }}{{ end }}"></i>{{ with index . 1}}{{ . | safeHTML }}{{ end }}</li>
 					{{ end }}
 					</ul>
 				</div>

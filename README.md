@@ -34,6 +34,14 @@ following command:
 $ hugo --buildDrafts
 ```
 
+# Templates and Assets
+
+Extracting assets: https://gohugo.io/hugo-pipes/introduction/#get-resource-with-resourcesget-and-resourcesgetremote
+
+Function to execute a file as a template:
+https://gohugo.io/hugo-pipes/resource-from-template/
+
+
 # Deployment to GitHub Pages
 
 Following Instructions here: https://gohugo.io/hosting-and-deployment/hosting-on-github/

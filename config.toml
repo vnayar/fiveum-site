@@ -18,6 +18,14 @@ theme = "hugo-elate-theme"
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
 
+  # Theme colors
+  [params.colors]
+    color1 = "#0d1a5c"
+    color2 = "#090d2c"
+    color3 = "#7f7f7f"
+    color4 = "#393e46"
+    color5 = "#fff"
+
   # Navigation
   [params.navigation]
     brand = "Fiveum"
@@ -156,23 +164,22 @@ theme = "hugo-elate-theme"
   [params.features]
     enable = true
     title = "Features"
-    description = "Ham ham ham."
+    description = "Optimized for productive collaboration and focused work."
 
     [[params.features.item]]
-      title = "Structured Topics"
-      description = "Each topic in Fiveum provides access to a collaboration tool such as chat, live-forums, etc. Topics may contain other topics, which allows them to be structured in the same way people are organized in your company, whether that be in functional departments or in cross-functional teams. Information can be put where it's needed and those that need it can find it."
+      title = "Organized Topics"
+      description = "Each topic in Fiveum provides access to a collaboration tool such as chat, live-forums, etc. Topics may contain other topics, which allows them to be structured in the same way people are organized in your company, whether that be in functional departments or in cross-functional teams."
       image = "images/Topics.png"
 
     [[params.features.item]]
-      title = "Ham"
-      description = "Ham ham ham."
-      image = "images/FiveumLogo5.png"
+      title = "Focused Communication"
+      description = "Live-forum based communication is used to manage short-lived conversations that to solve a problem, including software bugs/features, sales negotiations, and customer support. Conversations have associated contextual information as well as status to help others follow along."
+      image = "images/Fiveum-Live-Forums-Clipped.png"
 
     [[params.features.item]]
-      title = "Ham"
-      description = "Ham ham ham."
-      image = "images/FiveumLogo5.png"
-
+      title = "Smart Notifications"
+      description = "By tapping into your company directory services, the relationships between employees, their roles, and their responsibilities are used to prioritize notifications. Priority is used to determine whether new messages should interrupt your focus or not."
+      image = "images/NotificationRhythm.png"
 
   # Services section
   [params.services]
@@ -201,7 +208,7 @@ theme = "hugo-elate-theme"
 
   # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
@@ -243,7 +250,7 @@ theme = "hugo-elate-theme"
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
 
@@ -282,7 +289,7 @@ theme = "hugo-elate-theme"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
     title = "Get in touch"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."

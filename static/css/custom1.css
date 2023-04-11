@@ -5,11 +5,12 @@
   margin-top: -5px;
 }
 
+/*
 .flex-row-reverse {
   display: flex;
   flex-direction: row-reverse;
 }
-
+*/
 
 #fh5co-features .fh5co-feature {
   margin-bottom: 40px;
@@ -17,4 +18,8 @@
 
 #fh5co-features .fh5co-feature h3 {
   font-size: 2.5em;
+}
+
+#fh5co-features .fh5co-feature img {
+  height: 385px;
 }

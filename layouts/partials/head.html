@@ -90,7 +90,7 @@
 
     -->
     {{ $templateStyle := resources.Get "css/template-style.css" }}
-    {{ $style := $templateStyle | resources.ExecuteAsTemplate "css/style.css" . }}
+    {{ $style := $templateStyle | resources.ExecuteAsTemplate "css/style1.css" . }}
     <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
     <!-- <link rel="stylesheet" href="css/style.css"> -->
 

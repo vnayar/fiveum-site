@@ -1,0 +1,32 @@
+    <section id="fh5co-features" data-section="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading text-left">
+                    <h2 class=" left-border to-animate">{{ with .Site.Params.features.title }}{{ . | markdownify }}{{ end }}</h2>
+                    <div class="row">
+                        <div class="col-md-8 subtext to-animate">
+                            <h3>{{ with .Site.Params.features.description }}{{ . | markdownify }}{{ end }}</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ range $index, $val := .Site.Params.features.item }}
+            {{ if gt (mod $index 2) 0 }}
+            <div class="row">
+            {{ else }}
+            <div class="row flex-row-reverse">
+            {{ end }}
+                <div class="col-md-6 col-sm-6 fh5co-feature to-animate">
+                    <h3>{{ $val.title | markdownify }}</h3>
+                    <p>{{ $val.description | markdownify }}</p>
+                </div>
+                {{ with $val.image }}
+                <div class="col-md-6 col-sm-6 fh5co-feature to-animate">
+                    <img src="{{ . }}"></img>
+                </div>
+                {{ end }}
+                <div class="clearfix visible-sm-block"></div>
+            </div>
+            {{ end }}
+        </div>
+    </section>

@@ -1,0 +1,20 @@
+/* Permits the logo to be besides the brand name rather than underneath. */
+.navbar-brand > img {
+  display: inline;
+  height: 20px;
+  margin-top: -5px;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+#fh5co-features .fh5co-feature {
+  margin-bottom: 40px;
+}
+
+#fh5co-features .fh5co-feature h3 {
+  font-size: 2.5em;
+}

@@ -13,7 +13,7 @@ theme = "hugo-elate-theme"
   # Meta
   author = "Vijay Nayar"
   description = "Website for the Fiveum workplace collaboration service."
-  email = "vijay.nayar@funnel-labs.io"
+  email = "contact@funnel-labs.io"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
@@ -33,7 +33,8 @@ theme = "hugo-elate-theme"
     home = "Home"
     work = "Work"
     testimonials = "Testimonials"
-    #services = "Services"
+    features = "Features"
+    services = "Services"
     about = "About"
     contact = "Contact"
 
@@ -292,14 +293,14 @@ theme = "hugo-elate-theme"
     map = false
     form = true
     title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Interested in being an alpha customer? Have thoughts to share?"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "Postfach 301610, 10748 Berlin, Germany"],
+        #["icon-phone", "(123) 465-6789"],
+        ["icon-envelope", "contact@funnel-labs.io"],
+        ["icon-globe", '<a href="https://fiveum.funnel-labs.io/" target="_blank">fiveum.funnel-labs.io</a>']
       ]
 
     name = "Name"
@@ -310,7 +311,7 @@ theme = "hugo-elate-theme"
 
   # Footer section
   [params.footer]
-    enable = true
+    enable = false
     copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
     links = [
         ["icon-twitter", "#twitter"],

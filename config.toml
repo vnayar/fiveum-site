@@ -303,6 +303,7 @@ theme = "hugo-elate-theme"
         ["icon-globe", '<a href="https://fiveum.funnel-labs.io/" target="_blank">fiveum.funnel-labs.io</a>']
       ]
 
+    actionUrl = "https://formspree.io/f/mqkoglla"
     name = "Name"
     email = "Email"
     phone = "Phone"

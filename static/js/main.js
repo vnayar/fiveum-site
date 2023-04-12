@@ -149,7 +149,7 @@
                             },  k * 200, 'easeInOutExpo' );
 
                         });
-                    }, 1000);
+                    }, 200);
                     $(this.element).addClass('animated');
                 }
             } , { offset: '80%' } );

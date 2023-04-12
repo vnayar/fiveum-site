@@ -12,6 +12,11 @@
 }
 */
 
+#fh5co-home img {
+  margin-top: 20px;
+  height: 200px;
+}
+
 #fh5co-features .fh5co-feature {
   margin-bottom: 40px;
 }

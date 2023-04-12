@@ -57,6 +57,7 @@ theme = "hugo-elate-theme"
   [params.hero]
     title = 'Fiveum'
     subtitle = 'Workplace collaboration without the noise.'
+    brandLogo = "images/FiveumLogo5.png"
  
   # Intro section
   # Available icons: http://simplelineicons.com/

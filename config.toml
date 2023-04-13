@@ -24,7 +24,7 @@ theme = "hugo-elate-theme"
     color2 = "#090d2c"
     color3 = "#7f7f7f"
     color4 = "#393e46"
-    color5 = "#fff"
+    color5 = "#ffffff"
 
   # Navigation
   [params.navigation]

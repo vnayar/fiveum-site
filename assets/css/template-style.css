@@ -689,6 +689,14 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, 0.3);
 }
 
+#fh5co-features .fh5co-feature img {
+  border-style: solid;
+  border-width: 2px;
+  border-color: {{.Site.Params.Colors.color3}}70;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 5px 5px 5px 3px {{.Site.Params.Colors.color3}}70;
+}
+
 #fh5co-counters {
   background: {{ .Site.Params.Colors.color1 }};
   overflow: hidden;
